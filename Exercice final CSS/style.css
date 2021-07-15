@@ -1,0 +1,49 @@
+ 
+.bordure{border: 50 solid black;
+background-color: black;
+margin: 10px 0px 10px 0px ;
+
+
+}
+
+.atf {color: white;
+
+
+}
+.pf{color: white;
+    display: inline-block;
+    margin: 20px 00px 20px 30px;
+    ;}
+
+
+    .pefra{
+font-size: 20pt;
+display: inline;
+margin:0px 500px;
+font-size: 30pt;
+    }
+
+    .abcd{
+
+display: inline inline-block;
+    }
+
+
+
+    .ysv{
+        display: flex;
+        flex-direction: row;
+margin: 10pt;
+
+
+
+}
+
+
+.ozz{
+display: flex;
+border: solid rgb(190, 190, 190);
+padding: 0pt 300pt 0pt 10pt;
+position:relative;
+background-color: rgb(189, 189, 189);
+}
