@@ -10,17 +10,32 @@ margin: 10px 0px 10px 0px ;
 
 
 }
-.pf{color: white;
+
+
+.pf{color: rgb(253, 237, 237);
     display: inline-block;
     margin: 20px 00px 20px 30px;
+    text-combine-upright: 
     ;}
 
 
+.uzer{
+    display: inline-block;
+    margin: 20px 00px 20px 30px;
+     
+color: black;
+
+
+}
+
+
+
+
+
     .pefra{
-font-size: 20pt;
-display: inline;
-margin:0px 500px;
-font-size: 30pt;
+display: inline-block;
+margin-left: 930pt;
+font-size: 35pt;
     }
 
     .abcd{
@@ -47,3 +62,15 @@ padding: 0pt 300pt 0pt 10pt;
 position:relative;
 background-color: rgb(189, 189, 189);
 }
+
+
+.m-5 bg-info{
+
+    outline:ridge ;
+}
+
+
+
+
+
+

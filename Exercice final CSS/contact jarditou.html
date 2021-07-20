@@ -6,74 +6,144 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="style.css"> -->
 </head>
 
 <body>
 
-    <img src="jarditou_logo.jpg" height="100px">
 
-    <p class="pefra">Tout le jardin</p>
-
-
-    <section class="bordure">
-        
+    <div>
+        <img src="jarditou_logo.jpg" height="100px">
+        <p class="pefra">Tout le jardin</p>
+    </div>
     
-            <a href="accueil (exo).html"><p class="pf">Accueil</p></a>
-             <a href="Tableau jardin.html"><p class="pf">Tableau</p></a> 
-             <a href="contact jarditou.html"><p class="pf">Formulaire</p></a> 
-           
-         </section>
+    
+    
+    
+         <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class= "navbar-brand"href="#">Jarditou.com</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="accueil (exo).html">Accueil<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Tableau jardin.html">Tableau</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact jarditou.html">Formulaire</a>
+                  </li>
+               
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="Votre promotion" placeholder="Votre promotion" aria-label="Votre promotion">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Rechercher</button>
+              </form>
+            </div>
+          </nav>
+    
+    
     
         <img src="promotion.jpg" width="1887">
 
-    <h1><b>Contact</b></h1>
-    <hr>
-    <text>*Ces zones sont obligatoires</text>
-    <br> <br>
+<p>*Ces zones sont obligatoires</p>
+<h1>Vos coordonnées</h1>
 
-<fieldset>
 
-    <legend>Vos coordonnées</legend>
+<form>
+    <div class="form-group">
+        <label for="name">Nom*</label>
+        <input type="name" class="form-control" name="name" id="name" placeholder="Veuillez saisir votre nom">     
+    </div>
+
+
+    <div class="form-group">
+        <label for="name">Prénom*</label>
+        <input type="name" class="form-control" name="name" id="name" placeholder="Veuillez saisir votre prénom">     
+    </div>
+
+    <label for="Sexe">Sexe*</label>
+
+<div class="form-control-inline" >
+    <input type="radio" class="form-check"  name="sexe" value="Féminin">Féminin 
+     <input type="radio" class="form-check" name="sexe" value="Masculin">Masculin 
+    <input type="radio" class="form-check" name="sexe" value="neutre">Neutre   
+</div>
+
+
+<div class="form-group">
+    <label for="date">Date de naissance*</label>
+    <input type="date" class="form-control" name="Date de naissance">
+</div>
+
+<div class="form-group">
+    <label for="code_postal">Code postal*</label>
+    <input type="number" class="form-control" name="Code postal">
+</div>
+
+<div class="form-group">
+    <label for="Adresse">Adresse</label>
+        <input type="name" class="form-control" name="Adresse">
+</div>
+
+<div class="form-group">
+    <label for="Ville">Ville</label>
+    <input type="text" class="form-control" name="Ville">
+</div>
+
+<div class="form-group">
+    <label for="email">Email*</label>
+    <input type="email" class="form-control" name="email" placeholder="ezcaramel.0@ez.com">
+</div>
+
+</form>
+<br>
+<h1>Votre demande</h1>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         
-       
-            <text>Votre nom* :</text> <input type="text" required name="Votre nom"><br>
-            <text>Votre prénom* :</text> <input type="text" required name="Votre prenom">
-            <br>
-            <form action="http://bienvu.net/script.php" method="post">
-
-            <label for="Sexe">Sexe* :</label>
-                     <input type="radio" name="sexe" value="Féminin">Féminin 
-                      <input type="radio" name="sexe" value="Masculin">Masculin 
-                <br>
-                <label for="date">Date de naissance* :</label><input type="date" name="date">
-                <br>
-                <label for="Code postal">Code postal* :</label><input type="text" name="code_postal" id="Code postal">
-                <br>
-                <label for="Adresse">Adresse :</label><input type="text" id="Adresse" name="Adresse">
-                <br>
-                <label for="Ville">Ville :</label><input type="text" name="Ville" id="Ville">
-                <br>
-                <label type="Email">Email* :</label><input type="email" id="Email" name="Email">
-
     
-            </fieldset>
-
-
-    <br>
 
     <fieldset>
 
-        <legend>Votre demande</legend>
-        
-        <label for="Sujet">Sujet* :</label>
-        <select id="type" size required="4">
-            <option value=""><i>Veuillez choisir un sujet</i></option>
+     
+        <div class="form-group" placeholder="Veuillez sélectionner un sujet">
+        <label for="Sujet">Sujet*</label>
+     <select class="form-control" placeholder="Veuillez sélectionner un sujet">   
+          
             <option value="Mes commandes">Mes commandes</option>
             <option value="Question sur un produit">Question sur un produit</option>
             <option value="Réclamation">Réclamation</option>
             <option value="Autres">Autres</option>
-
+        </div>
 
         </select>
         <br>
